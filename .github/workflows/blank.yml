@@ -1,0 +1,3 @@
+sudo apt update
+# pick either PHP or Python stack — I'll show the PHP example (simple)
+sudo apt install -y git nginx php-fpm certbot python3-certbot-nginx
