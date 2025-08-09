@@ -29,7 +29,7 @@ exports.handler = async (event, context) => {
   const response = await fetch(apiUrl, {
     method: "PUT",
     headers: {
-      "Authorization": `token ${_githubToken}`,
+      "Authorization": `token ${githubToken}`,
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
